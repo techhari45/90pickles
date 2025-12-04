@@ -31,7 +31,7 @@ const Login = () => {
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
                 <img
-                    src="/images/login_bg.png"
+                    src={`${import.meta.env.BASE_URL}images/login_bg.png`}
                     alt="Background"
                     className="w-full h-full object-cover"
                 />

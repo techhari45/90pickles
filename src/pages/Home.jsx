@@ -14,7 +14,7 @@ const Home = () => {
             {/* Hero Section - Image Only */}
             <section className="relative h-[500px] md:h-[600px] overflow-hidden">
                 <img
-                    src="/images/home_hero_bg.jpg"
+                    src={`${import.meta.env.BASE_URL}images/home_hero_bg.jpg`}
                     alt="Pickle Background"
                     className="w-full h-full object-cover object-center"
                 />
@@ -60,7 +60,7 @@ const Home = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <Link to="/shop?category=veg" className="group relative h-80 rounded-2xl overflow-hidden cursor-pointer">
                         <img
-                            src="/images/veg_pickles_category.png"
+                            src={`${import.meta.env.BASE_URL}images/veg_pickles_category.png`}
                             alt="Veg Pickles"
                             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                         />
@@ -75,7 +75,7 @@ const Home = () => {
 
                     <Link to="/shop?category=non-veg" className="group relative h-80 rounded-2xl overflow-hidden cursor-pointer">
                         <img
-                            src="/images/non_veg_pickles_category.png"
+                            src={`${import.meta.env.BASE_URL}images/non_veg_pickles_category.png`}
                             alt="Non-Veg Pickles"
                             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                         />
