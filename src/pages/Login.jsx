@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { login } from '../redux/authSlice';
+import loginBg from '../assets/images/login_bg.png';
 
 const Login = () => {
     const [isLogin, setIsLogin] = useState(true);
@@ -31,7 +32,7 @@ const Login = () => {
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
                 <img
-                    src={`${import.meta.env.BASE_URL}images/login_bg.png`}
+                    src={loginBg}
                     alt="Background"
                     className="w-full h-full object-cover"
                 />

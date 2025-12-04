@@ -4,6 +4,8 @@ import { ShoppingBag, Star } from 'lucide-react';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../redux/cartSlice';
 
+import brandLabel from '../assets/images/brand_label.jpg';
+
 const ProductCard = ({ product }) => {
     const dispatch = useDispatch();
 
@@ -26,7 +28,7 @@ const ProductCard = ({ product }) => {
                     {/* Brand Label Overlay */}
                     <div className="absolute bottom-2 right-2 w-12 h-16 opacity-90 shadow-sm rotate-[-5deg] z-10">
                         <img
-                            src={`${import.meta.env.BASE_URL}images/brand_label.jpg`}
+                            src={brandLabel}
                             alt="90's Pickles"
                             className="w-full h-full object-contain rounded-sm"
                         />

@@ -1,3 +1,15 @@
+import chickenPickle from '../assets/images/chicken_pickle_jar.jpg';
+import prawnsPickle from '../assets/images/prawns_pickle_jar.jpg';
+import prawnsGonguraPickle from '../assets/images/prawns_gongura_pickle.jpg';
+import muttonPickle from '../assets/images/mutton_pickle_jar.jpg';
+import fishPickle from '../assets/images/fish_pickle_jar.jpg';
+import mangoPickle from '../assets/images/mango_pickle_jar.jpg';
+import lemonPickle from '../assets/images/lemon_pickle_jar.jpg';
+import amlaPickle from '../assets/images/amla_pickle_jar.jpg';
+import gonguraPickle from '../assets/images/gongura_pickle_jar.jpg';
+import gingerPickle from '../assets/images/ginger_pickle_jar.jpg';
+import tomatoPickle from '../assets/images/tomato_pickle_jar.jpg';
+
 export const products = [
     // Non-Veg Pickles
     {
@@ -7,7 +19,7 @@ export const products = [
         price: 250,
         originalPrice: 300,
         weight: "250g",
-        image: `${import.meta.env.BASE_URL}images/chicken_pickle_jar.jpg`, // Jar look
+        image: chickenPickle, // Jar look
         description: "Authentic Andhra style spicy chicken pickle made with fresh chicken chunks and traditional spices. A perfect side for rice and idli.",
         rating: 4.8,
         reviews: 124,
@@ -21,7 +33,7 @@ export const products = [
         price: 250,
         originalPrice: 300,
         weight: "250g",
-        image: `${import.meta.env.BASE_URL}images/prawns_pickle_jar.jpg`,
+        image: prawnsPickle,
         description: "Delicious prawns pickle marinated in aromatic spices. Made with fresh prawns and premium oil.",
         rating: 4.7,
         reviews: 98,
@@ -35,7 +47,7 @@ export const products = [
         price: 250,
         originalPrice: 300,
         weight: "250g",
-        image: `${import.meta.env.BASE_URL}images/prawns_gongura_pickle.jpg`,
+        image: prawnsGonguraPickle,
         description: "A unique combination of prawns and tangy Gongura leaves. A must-try for pickle lovers.",
         rating: 4.9,
         reviews: 56,
@@ -49,7 +61,7 @@ export const products = [
         price: 250,
         originalPrice: 350,
         weight: "250g",
-        image: `${import.meta.env.BASE_URL}images/mutton_pickle_jar.jpg`,
+        image: muttonPickle,
         description: "Tender mutton pieces pickled with rich spices. A royal treat for meat lovers.",
         rating: 4.8,
         reviews: 85,
@@ -63,7 +75,7 @@ export const products = [
         price: 250,
         originalPrice: 300,
         weight: "250g",
-        image: `${import.meta.env.BASE_URL}images/fish_pickle_jar.jpg`,
+        image: fishPickle,
         description: "Boneless fish fillets marinated in tangy and spicy pickle masala.",
         rating: 4.6,
         reviews: 42,
@@ -79,7 +91,7 @@ export const products = [
         price: 250,
         originalPrice: 300,
         weight: "250g",
-        image: `${import.meta.env.BASE_URL}images/mango_pickle_jar.jpg`, // Jar
+        image: mangoPickle, // Jar
         description: "Traditional cut mango pickle made with raw mangoes, mustard powder, and red chili powder.",
         rating: 4.9,
         reviews: 340,
@@ -93,7 +105,7 @@ export const products = [
         price: 250,
         originalPrice: 300,
         weight: "250g",
-        image: `${import.meta.env.BASE_URL}images/lemon_pickle_jar.jpg`,
+        image: lemonPickle,
         description: "Tangy and spicy lemon pickle that goes well with curd rice.",
         rating: 4.5,
         reviews: 112,
@@ -107,7 +119,7 @@ export const products = [
         price: 250,
         originalPrice: 300,
         weight: "250g",
-        image: `${import.meta.env.BASE_URL}images/amla_pickle_jar.jpg`,
+        image: amlaPickle,
         description: "Healthy and tasty Gooseberry pickle, rich in Vitamin C.",
         rating: 4.6,
         reviews: 89,
@@ -121,7 +133,7 @@ export const products = [
         price: 250,
         originalPrice: 300,
         weight: "250g",
-        image: `${import.meta.env.BASE_URL}images/gongura_pickle_jar.jpg`,
+        image: gonguraPickle,
         description: "The pride of Andhra cuisine. Tangy sorrel leaves pickle.",
         rating: 4.8,
         reviews: 210,
@@ -135,7 +147,7 @@ export const products = [
         price: 250,
         originalPrice: 300,
         weight: "250g",
-        image: `${import.meta.env.BASE_URL}images/ginger_pickle_jar.jpg`,
+        image: gingerPickle,
         description: "Spicy and sweet ginger pickle, great for digestion and taste.",
         rating: 4.7,
         reviews: 150,
@@ -149,7 +161,7 @@ export const products = [
         price: 250,
         originalPrice: 300,
         weight: "250g",
-        image: `${import.meta.env.BASE_URL}images/tomato_pickle_jar.jpg`,
+        image: tomatoPickle,
         description: "Sun-dried tomato pickle with a burst of tangy and spicy flavors.",
         rating: 4.8,
         reviews: 180,
